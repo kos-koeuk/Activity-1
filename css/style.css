@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+body {
+    background-color: rgb(255, 255, 134);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+form {
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    height: 70%;
+    border-radius: 10px;
+}
+
+.content1 {
+    flex: 2.5;
+    display: flex;
+    border-radius: 10px 0px 0px 10px;
+    flex-direction: column;
+    background-color: rgb(23, 130, 130);
+}
+
+.image {
+    font-size: 20px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.PNC {
+    display: flex;
+    justify-content: center;
+    padding: 2px;
+    color: white;
+}
+
+.image img {
+    width: 50%;
+    display: flex;
+    align-self: center;
+}
+
+.content2 {
+    flex: 3;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    border-radius: 0px 10px 10px 0px;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.input-box {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+h4{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+    color: rgb(23, 130, 130);
+}
+
+.input-box,
+.checkboxs,
+.do-you-have-account,
+.Login {
+    flex: 1;
+}
+
+
+input{
+    padding: 10px;
+    border: none;
+    border-bottom: 1px solid cadetblue;
+    background-color: none;
+}
+
+.Login{
+    display: flex;
+    align-self: center;
+}
+
+button{
+    padding: 10px;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    border: 2px solid cadetblue;
+    border-radius: 20px;
+    background-color: rgb(255, 255, 255);
+
+}
+
+button:hover{
+    border: 2px solid coral;
+}
